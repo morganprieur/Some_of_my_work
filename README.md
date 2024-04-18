@@ -12,7 +12,9 @@ Logged in users are allowed to follow others users by their username, or block t
 They are also able to:
 - write tickets to request for an article or book review, 
 - write a review answering to a ticket, 
-- write a review and the ticket at the same time. 
+- write a review and the ticket at the same time.
+
+This application respects accessibility (WCAG) and eco-design ("Green code") rules. 
 
 [Repo](https://github.com/morganprieur/Literary_reviews/tree/main) 
 
