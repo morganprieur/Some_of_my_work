@@ -4,9 +4,12 @@
 
 ## Literary Reviews 
 
-Django network like application allowing to request and write books' and articles' reviews. 
-(Repo)[https://github.com/morganprieur/Literary_reviews/tree/main] 
+Django network like application allowing to request and write books' and articles' reviews.     
 
+[Repo](https://github.com/morganprieur/Literary_reviews/tree/main) 
+
+
+##### Techonolgies 
 * Python 
 * Django 
 * WCAG 
