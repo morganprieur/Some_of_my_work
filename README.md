@@ -6,7 +6,13 @@ Some authorized of my projects and contributions, both professionals and persona
 ---- 
 ## Literary Reviews 
 **Python**     
-Django network like application allowing to request and write books' and articles' reviews.     
+Django network like application allowing to request and write books' and articles' reviews. 
+
+Logged in users are allowed to follow others users by their username, or block them. They can see the posts of their followed users, and their own posts. 
+They are also able to:
+- write tickets to request for an article or book review, 
+- write a review answering to a ticket, 
+- write a review and the ticket at the same time. 
 
 [Repo](https://github.com/morganprieur/Literary_reviews/tree/main) 
 
@@ -20,7 +26,31 @@ Django network like application allowing to request and write books' and article
 * W3CSS 
 * Flake8 
 
-----
+---- 
+## Projects Management API 
+**Python**     
+Django RestFramework B2B support API. 
+It allows to manage users, projects, issues and issues' comments. Authentication is ensured by JWT. The users chose to share or not their data, and to be contacted or not, and they are allowed to manage their choices when they want it. 
+The logged in users can create projects, issues, and issues' comments, and manage their own objects. Some entities get created automatically when a trigger happens. 
+
+The API respects "green code" of "INR" and some rules of the GDPR about the users' data. 
+
+The documentation has been generated with DRF Spectacular. 
+
+The (PostgreSQL) DB and the API are running into different Docker containers. 
+
+[Repo](https://github.com/morganprieur/Projects_management_API) 
+
+##### Techonolgies 
+* Python 
+* Pipenv 
+* djangorestframework-simplejwt 
+* Django-simple-jwt 
+* DRF-spectacular / Swagger 
+* Flake8 
+* Docker 
+
+---- 
 ## Test Flask Registration MVP 
 **Python**     
 Tests on an existing registration MVP application in Flask. 
@@ -36,29 +66,7 @@ Tests on an existing registration MVP application in Flask.
 * Flake8 
 
 ---- 
-## Projects Management API 
-**Python**     
-Django RestFramework B2B support API. 
-It allows to manage users, projects, issues and issues' comments. Authentication is ensured by JWT. The users chose to share or not their data, and to be contacted or not, and they are allowed to manage their choices even they want it. 
-The logged in users can create projects, issues, and issues' comments, and manage their own objects. 
-The API respects "green code" of "INR" and some rules of the GDPR about the users' data. 
 
-The documentation has been generated with DRF Spectacular. 
-
-The (PostgreSQL) DB and the API are running into different Docker containers. 
-
-[Repo](https://github.com/morganprieur/Projects_management_API) 
-
-##### Techonolgies 
-* Python 
-* Pipenv 
-* djangorestframework-simplejwt 
-* Django-simple-jwt 
-* DRF-spectacular 
-* Flake8 
-* Docker 
-
----- 
 ## Itf Web 
 **Javascript**     
 Get the data from a given API, to display them into the browser, like on Netflix. 
