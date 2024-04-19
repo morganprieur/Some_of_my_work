@@ -122,7 +122,6 @@ User management: admins can manage users, clients can only see the cameras and v
 * Flake8 
 
 ---- 
-
 ## Tcom MVP 
 **Python** 
 Application de visualisation et gestion de travaux. Accès aux documents nécessaires, géolocalisation des sites, upload de photos. 
