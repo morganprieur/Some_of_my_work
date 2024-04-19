@@ -66,7 +66,6 @@ Tests on an existing registration MVP application in Flask.
 * Flake8 
 
 ---- 
-
 ## Itf Web 
 **Javascript**     
 Get the data from a given API, to display them into the browser, like on Netflix. 
@@ -81,6 +80,7 @@ The project is developped into a Docker container.
 * SASS 
 * W3CSS 
 * Docker 
+
 ---- 
 ## Backend Python SQL 
 **Python**     
@@ -110,12 +110,62 @@ The PostgreSQL database is developped into a Docker container.
 Flask MVP that allows to see the remote cameras views. Login required, home page displays a dashboard. 
 User management: admins can manage users, clients can only see the cameras and views. 
 
+[Repo](https://github.com/morganprieur/site_watch) 
+
 ##### Techonolgies 
 * Python 
 * Pipenv 
 * JSON 
 * Flask_bcrypt 
 * Flake8 
+
+---- 
+
+## Tcom MVP 
+**Python** 
+Application de visualisation et gestion de travaux. Accès aux documents nécessaires, géolocalisation des sites, upload de photos. 
+Gestion des accès utilisateurs : nécessité de posséder un compte pour se connecter. Un compte "démo" peut être créé. 
+Le front est adapté aux mobiles. 
+
+Disclaimer : Adaptation d'un projet réel. Toutes les informations sensibls ont été retirées ou anonymisées. Il peut en résulter des erreurs. Ne pas utiliser tel quel, et envoyez un feedback en cas de problème. 
+
+L'application est développée dans des containers Docker : 
+    - la BDD -> container "db_tcom" 
+    - l'application -> container "app_tcom" 
+    - Adminer (gestion de la BDD) -> container "adminer_tcom" 
+
+[Repo](https://github.com/morganprieur/tcom_mvp) 
+
+##### Techonolgies  
+Django 
+PostgreSQL 
+Signal (Django) 
+JWT 
+Pillow (gestion des images) 
+Django template 
+Bootstrap 
+Docker 
+
+---- 
+## API_systems 
+**Python** 
+API permettant de consulter les données enregistrées pour les systèmes installés et configurés. Les techniciens peuvent enregistrer les systèmes avant de les mettre en service. 
+
+Disclaimer : Adaptation d'un projet réel. Toutes les informations sensibls ont été retirées ou anonymisées. Il peut en résulter des erreurs. Ne pas utiliser tel quel, et envoyez un feedback en cas de problème. 
+
+La BDD et l'API sont dans des containers Docker gérés par un fichier compose.yaml : 
+    BDD -> container "db" 
+    API -> container "api" 
+
+[Repo](https://github.com/morganprieur/API_systems) 
+
+**Technologies** 
+Django 
+PostgreSQL 
+Django Signals
+JWT 
+Django permissions 
+Docker 
 
 ---- 
 ## Prepa Meeting 
